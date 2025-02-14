@@ -112,3 +112,14 @@ button:disabled {
         width: 100%;
     }
 }
+
+/* Remove or comment out any existing background-color rules for td elements */
+td:nth-child(even) {
+    background-color: #f8faff;
+    /* very light blue-white */
+}
+
+td:nth-child(odd) {
+    background-color: #b8d1f3;
+    /* medium navy */
+}
